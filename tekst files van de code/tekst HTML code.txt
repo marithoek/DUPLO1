@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Marit Hoek</title>
+    <link rel="stylesheet" href="Styles/main.css" />
+  </head>
+
+  <body>
+    <!-- Gedeelte 1: Introductie tekst met een afbeelding aan de rechterkant -->
+    <div class="text-image-top">
+      <div class="text">
+        <h1 class="Header-pink">Marit Hoek</h1>
+        <p>
+          Welkom bij mijn persoonlijke portfolio! Hier vind je meer informatie
+          over mij en mijn werk. Ik ben Marit, 23 jaar, en ik woon in Wormer. Op
+          dit moment ben ik werkzaam bij Dux Group in Rotterdam, en het is
+          helemaal top! Ik begin, hopelijk spoedig (als de screening meewerkt),
+          bij het ministerie van defensie met een gave opdracht. Dan mag ik
+          algorithmes gaan inventariseren zodat er geen illegale activiteiten
+          bij de overheid plaatsvinden (ironisch hè). In mijn vrije tijd houd ik
+          van volleyballen, tennissen, lezen, borduren, tekenen, schilderen,
+          films/series kijken en spelletjes spelen. Want ik houd van data, maar
+          dat doe ik al genoeg. Op de foto aan de rechterkant zie je een foto
+          van mij toen ik op bezoek was bij mijn oma in Benidorm. Ik heb deze
+          foto gekozen omdat ik houd van de zon, en ik kon geen foto in
+          Nederland vinden waar deze op stond met mij. Enjoy!
+        </p>
+      </div>
+      <img
+        class="image"
+        src="Images/Spanje met pet.jpg"
+        alt="Foto van mezelf"
+      />
+    </div>
+
+    <!-- Gedeelte 2: Evaringtekst met esthetische afbeeldingen aan de linkerkant -->
+    <div class="text-image-bottom">
+      <div class="images">
+        <img
+          src="https://th.bing.com/th/id/OIP.t_xIjd15kjpPh7nmmfXbNAHaEK?rs=1&pid=ImgDetMain"
+          alt="Esthetisch plaatje van getekende roze wolken"
+        />
+        <img
+          src="https://img.freepik.com/fotos-premium/nubes-rosadas-sobre-fondo-rosa_853645-5705.jpg"
+          alt="Esthetisch plaatje van echtlijkende roze wolken"
+        />
+      </div>
+      <div class="text">
+        <h2 class="Header-pink">Vaardigheden</h2>
+
+        <p>
+          Hieronder vind je een lijstje van alle vaardigheden die ik tijdens
+          mijn studie en beginnende carrière heb mogen leren.
+        </p>
+
+        <h3>Technische vaardigheden</h3>
+
+        <ul>
+          <li><strong>Programmeertalen</strong>: Python, R</li>
+          <li><strong>Databeheer & Querying</strong>: SQL, Snowflake</li>
+          <li><strong>Data visualisatie</strong>: Tableau, PowerBI</li>
+          <li><strong>Statistische Software</strong>: SPSS</li>
+          <li>
+            <strong>Statistische modellen</strong>: Lineaire regressie,
+            Logistische regressie, Decision Trees, Random Forests
+          </li>
+          <li><strong>Ruimtelijke Analyse</strong>: QGIS</li>
+          <li>
+            <strong>Natural Language Processing</strong>: Hugging Face
+            Transformers
+          </li>
+        </ul>
+
+        <h3>Analytische vaardigheden</h3>
+
+        <ul>
+          <li>
+            <strong>Data-analyse & Interpretatie:</strong> Bedreven in het
+            analyseren van diverse datasets en het afleiden van bruikbare
+            inzichten met behulp van statistische en machine learning-technieken
+          </li>
+          <li>
+            <strong>Statistische Testen & Modellering:</strong> Ervaren in het
+            uitvoeren van rigoureuze statistische tests en het bouwen van
+            voorspellende modellen.
+          </li>
+          <li>
+            <strong>Databaseontwerp & -beheer:</strong> Vaardig in het ontwerpen
+            en raadplegen van relationele databases, waarbij de integriteit van
+            de data en efficiënte toegang worden gewaarborgd.
+          </li>
+          <li>
+            <strong>Ruimtelijke Data-analyse:</strong> Bekwaam in het
+            voorbewerken en analyseren van ruimtelijke data om waardevolle
+            geografische inzichten te genereren.
+          </li>
+          <li>
+            <strong>Communicatie van Inzichten:</strong> Bedreven in het creëren
+            van duidelijke en impactvolle data-visualisaties om bevindingen
+            effectief te communiceren naar belanghebbenden.
+          </li>
+          <li>
+            <strong>Ervaren in het werken met Large Language Models:</strong>
+            Inclusief het fine-tunen van pre-trained modellen voor
+            domeinspecifieke NLP-taken zoals tekstanalyse en samenvatten.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <br />
+
+    <!-- Gedeelte 3: Voltooide opdrachten-->
+    <h2 class="centered-header">Voltooide opdrachten</h2>
+
+    <!-- Opdracht 1-->
+    <details>
+      <summary>
+        <strong>Opdracht 1: Automatisering van McDonald’s Weekly Update</strong>
+      </summary>
+      <p>
+        Binnen het Business Insights team van McDonald’s NL heb ik de wekelijkse
+        update dashboards volledig geautomatiseerd, wat resulteerde in een
+        tijdsbesparing van ongeveer 3 uur per week. De stappen omvatten:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Template Vernieuwing:</strong> Updaten en optimaliseren van
+          bestaande PowerPoint-templates.
+        </li>
+        <li>
+          <strong>Integratie met Tableau:</strong> Overzetten van vernieuwde
+          templates naar Tableau voor dynamische rapportage.
+        </li>
+        <li>
+          <strong>Data Verzameling met SQL:</strong> Ontwikkelen en integreren
+          van SQL-queries binnen Snowflake om relevante data automatisch te
+          verzamelen.
+        </li>
+        <li>
+          <strong>Visualisatie en Automatisering:</strong> Creëren van
+          interactieve en up-to-date visualisaties in Tableau, waarbij
+          datumgegevens automatisch worden bijgewerkt. Alleen de beschrijvende
+          teksten vereisen nog handmatige aanpassing.
+        </li>
+      </ul>
+
+      <p>Gebruikte technieken:</p>
+
+      <ul>
+        <li>SQL voor efficiënte data-extractie en -verwerking.</li>
+        <li>Snowflake voor dataopslag en -beheer.</li>
+        <li>Tableau voor data-visualisatie en rapportage-automatisering.</li>
+      </ul>
+    </details>
+
+    <!-- Opdracht 2-->
+    <details>
+      <summary>
+        <strong>Opdracht 2: Scriptieproject bij UMC Utrecht</strong>
+      </summary>
+      <p>
+        Ik heb mijn scriptie met een 8,6 afgerond in samenwerking met de
+        afdeling Psychiatrie van UMC Utrecht. Het project richt zich op:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Natuurlijk Taalverwerking:</strong> Ontwikkelen van een model
+          dat diagnoses uit tekstuele data kan extraheren met behulp van een
+          openbare Transformer-model van Hugging Face.
+        </li>
+        <li>
+          <strong>Annotatie van Medische Tekst:</strong> Handmatig annoteren van
+          medische teksten om het Transformer-model te optimaliseren en te
+          trainen op nauwkeurige herkenning van medische concepten en diagnoses.
+        </li>
+        <li>
+          <strong>Data Preparatie en Training:</strong> Importeren, preprocessen
+          en trainen van het model op beschikbare medische data om resultaten
+          nauwkeuriger en betrouwbaarder te maken.
+        </li>
+        <li>
+          <strong>Model Evaluatie:</strong> Beoordelen van de prestaties van het
+          model en optimaliseren voor klinische toepassing.
+        </li>
+      </ul>
+
+      <p>Gebruikte technieken:</p>
+
+      <ul>
+        <li>Hugging Face Transformers voor geavanceerde NLP-toepassingen.</li>
+        <li>Python voor data preprocessing, modeltraining en evaluatie.</li>
+      </ul>
+    </details>
+
+    <!-- Opdracht 3-->
+    <details>
+      <summary>
+        <strong>Opdracht 3: Analyse van Ruimtelijke Data</strong>
+      </summary>
+      <p>
+        Voor het vak Spatial Data Analysis heb ik in groepsverband een project
+        uitgevoerd waarin we de relatie tussen bevolkingsdichtheid en
+        lichtvervuiling in Nederland onderzochten:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Data Verzameling:</strong> Gebruik van openbare datasets met
+          betrekking tot bevolkingsdichtheid en lichtvervuiling.
+        </li>
+        <li>
+          <strong>Data Processing in QGIS:</strong> Toepassen van GIS-functies
+          zoals 'Raster Calculator' en 'Zonal Statistics' om gemiddelde
+          lichtvervuiling per wijk te berekenen.
+        </li>
+        <li>
+          <strong>Statistische Analyse:</strong> Uitvoeren van een lineaire
+          regressie in Python om lichtvervuiling te voorspellen op basis van
+          inkomen en bevolkingsdichtheid.
+        </li>
+      </ul>
+
+      <p>Gebruikte technieken:</p>
+
+      <ul>
+        <li>QGIS voor geospatiale data-preprocessing en -analyse.</li>
+        <li>Python voor statistische modellering en regressieanalyse.</li>
+        <li>
+          Integratie van verschillende datasets voor multidimensionale
+          inzichten.
+        </li>
+      </ul>
+    </details>
+
+    <!-- Gedeelte 4: Klantenreviews-->
+    <div class="review-container">
+      <!-- Linker Review Box -->
+      <div class="review-box">
+        <p class="company-name">McDonald's NL</p>
+        <p class="review-quote">
+          "Marit heeft bewezen sterke analytische vaardigheden te bezitten en
+          droeg actief bij aan het succes en gezelligheid van ons team."
+        </p>
+      </div>
+
+      <!-- Middelste Review Box -->
+      <div class="review-box">
+        <p class="company-name">UMC Utrecht</p>
+        <p class="review-quote">
+          "Ze leverde waardevolle inzichten door NLP-gedreven oplossingen
+          effectief toe te passen in dit uitdagende project."
+        </p>
+      </div>
+
+      <!-- Rechter Review Box -->
+      <div class="review-box">
+        <p class="company-name">Universiteit Utrecht</p>
+        <p class="review-quote">
+          "Marit toonde uitstekende communicatieve vaardigheden en wist complexe
+          concepten op een begrijpelijke en toegankelijke manier over te
+          brengen."
+        </p>
+      </div>
+    </div>
+
+    <!-- Gedeelte 5: Het contactformulier -->
+    <h2 class="centered-header">Contact</h2>
+
+    <form action="#" method="post">
+      <label for="name">Naam:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">E-mailadres:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="question">Vraag:</label>
+      <textarea id="question" name="question" rows="4" required></textarea>
+
+      <input type="submit" value="Verzend Vraag" />
+    </form>
+
+    <br />
+
+    <!-- Gedeelte 6: Link naar andere website, de site zelf is nu nog een placeholder voor evt iets anders -->
+    <a
+      href="https://eur05.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmarit-hoek-733819255%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dios_app&data=05%7C02%7Cm.hoek%40duxgroup.nl%7C1c49f4f1f88241cbbf2b08dd406bb240%7C2d205b8e574a49afa77c2fabcea3c66d%7C0%7C0%7C638737553474937680%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=8KI%2FrPdyELXjg6lRu6%2B256i%2FwKJTCSr0Y5UkSY4ql6M%3D&reserved=0"
+      target="_blank"
+      >Mijn Linkedin pagina</a
+    >
+  </body>
+</html>
