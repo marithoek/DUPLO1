@@ -1,0 +1,56 @@
+/* AFBEELDINGEN EN TEKST FORMATTEN*/
+.Header-pink {
+  color: #f841c7;
+}
+
+.text-image-top {
+  display: flex;
+  align-items: center;
+  gap: 5.625em; /* ≈ 90px */
+  margin-bottom: 2.5em; /* ≈ 40px */
+}
+
+.text-image-top .image {
+  width: 36%;
+  height: auto;
+  position: relative;
+  top: 4em;
+  margin-right: 5%;
+  min-width: 500px;
+}
+
+.text-image-top .text {
+  flex: 1; /* Neem de overgebleven ruimte in */
+  margin-left: 2.5em; /* ≈ 40px */
+  margin-top: 1.25em; /* ≈ 20px */
+  min-width: 300px;
+}
+
+.text-image-bottom {
+  display: flex;
+  align-items: center;
+  gap: 1.25em; /* ≈ 20px */
+}
+
+.text-image-bottom .images {
+  width: 45%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625em;
+}
+
+.text-image-bottom .text {
+  position: relative;
+  top: 1.875em; /* ≈ 30px */
+  margin-right: 0.9375em; /* ≈ 15px */
+}
+
+img {
+  max-width: 100%;
+  height: auto; /* Behoud de verhoudingen van de afbeelding */
+  display: block;
+}
+.text {
+  flex: 1; /* Neem de overgebleven ruimte in */
+}
